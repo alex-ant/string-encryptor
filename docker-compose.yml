@@ -1,0 +1,7 @@
+services:
+  aes-tool:
+    build: .
+    container_name: aes-tool
+    ports:
+      - "12345:80"
+    restart: unless-stopped
